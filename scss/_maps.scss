@@ -1,0 +1,10 @@
+$theme-colors-extra: (
+  "itf": $itFactory,
+);
+$theme-colors: map-merge($theme-colors, $theme-colors-extra);
+@debug $theme-colors;
+
+$spacers: map-merge($spacers,(
+        6: 6rem,
+));
+@debug $spacers;

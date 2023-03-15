@@ -1,0 +1,21 @@
+@use "sass:color";
+
+$font-family-sans-serif: 'Abel', sans-serif;
+$font-family-headers: 'Abril Fatface', cursive;
+
+// change the $blue and $red variable
+$blue: midnightblue;
+$red: rgb(175, 35, 35);
+// add a new variable $itFactory
+$itFactory: #607b60;
+
+$enable-rounded: false;
+$enable-shadows: true;
+$body-bg: color.scale($itFactory, $lightness: 90%);
+$alert-border-width: 5px;
+
+// offcanvas
+$offcanvas-horizontal-width: 250px;
+$offcanvas-bg-color: $body-bg;
+$offcanvas-border-color: orange;
+$offcanvas-border-width: 10px;

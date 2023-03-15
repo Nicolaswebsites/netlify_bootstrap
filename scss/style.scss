@@ -1,0 +1,19 @@
+/* import Font Awesome and Google font(s) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&display=swap');
+
+/* import the necessary Bootstrap files */
+@import "../node_modules/bootstrap/scss/functions";
+/* Override/add Bootstrap variables here (just before the Bootstraps functions!!) */
+@import "variables";
+@import "../node_modules/bootstrap/scss/variables";
+/* Optional Sass map overrides here (just before the Bootstrap maps!!) */
+@import "maps";
+@import '../node_modules/bootstrap/scss/maps';
+@import "../node_modules/bootstrap/scss/mixins";
+@import '../node_modules/bootstrap/scss/utilities';
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* create custom styles/partials */
+@import "reboot";
+
